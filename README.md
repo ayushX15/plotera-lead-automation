@@ -69,7 +69,7 @@ plotera-lead-automation/
 ├── tests/
 │   └── __init__.py      # Placeholder for tests
 ```
-```
+<!-- Folder structure section ends here. No further plaintext or code block starts. -->
 
 
 ## ⚙ Tech Stack:
