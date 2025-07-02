@@ -67,7 +67,7 @@ plotera-lead-automation/
 │   └── app.log          # Logs all actions
 │
 ├── tests/
-│   └── __init__.py      # Placeholder for tests\`
+│   └── __init__.py      # Placeholder for tests```
 
 
 ## ⚙ Tech Stack:
