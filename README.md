@@ -40,6 +40,7 @@ Author
 
 ## 🗂 Folder Structure:
 
+```plaintext
 plotera-lead-automation/
 ├── app.py               # Entry point for Flask app
 ├── config.py            # Loads environment & DB config
@@ -47,24 +48,24 @@ plotera-lead-automation/
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Project documentation
 ├── .gitignore           # Ignore __pycache__, .env, etc.
-
+│
 ├── db/
 │   ├── db_connection.py # MySQL connection function
 │   └── init_db.sql      # Creates DB, tables, test data
-
+│
 ├── routes/
 │   ├── leads.py         # API routes for leads
 │   └── sales.py         # API routes for salespersons
-
+│
 ├── utils/
 │   └── sms.py           # Sends SMS using Twilio
-
+│
 ├── cron/
 │   └── send_reminders.py # Checks today's visits & sends SMS
-
+│
 ├── logs/
 │   └── app.log          # Logs all actions
-
+│
 ├── tests/
 │   └── __init__.py      # Placeholder for tests
 
