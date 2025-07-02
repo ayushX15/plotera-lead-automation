@@ -68,7 +68,8 @@ plotera-lead-automation/
 │
 ├── tests/
 │   └── __init__.py      # Placeholder for tests
-<br>
+```
+```
 
 
 ## ⚙ Tech Stack:
