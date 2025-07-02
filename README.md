@@ -133,6 +133,7 @@ python app.py
     /get-today-visits	    GET	            Get today's scheduled visits
     /update-status	            PUT	            Update lead status
     /assign-salesperson	    PUT	            Assign salesperson to a lead
+    /get-salespersons       GET             Get all salespersons list
 
 Test these using Postman or browser.
 

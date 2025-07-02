@@ -35,7 +35,6 @@ CREATE TABLE IF NOT EXISTS users (
     role VARCHAR(20) DEFAULT 'admin'
 );
 
--- (Optional) Step 6: Insert sample data for testing
 
 -- Insert into salespersons
 INSERT INTO salespersons (name, phone) VALUES
