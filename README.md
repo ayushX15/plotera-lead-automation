@@ -122,14 +122,14 @@ python app.py
 
 ## 🔗 API Endpoints:
 
-## Endpoint	               Method	        Description
+## Endpoint----------------Method-----------Description
 
-    /ping	                GET	            Check if server is running
+    /ping	                    GET	            Check if server is running
     /test-db	            GET	            Check MySQL connection
     /add-lead	            POST	        Add new lead
     /get-leads	            GET	            List all leads
     /get-today-visits	    GET	            Get today's scheduled visits
-    /update-status	        PUT	            Update lead status
+    /update-status	            PUT	            Update lead status
     /assign-salesperson	    PUT	            Assign salesperson to a lead
 
 Test these using Postman or browser.
