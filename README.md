@@ -80,7 +80,7 @@ Logging: Python logging
 
 1️⃣ Clone / Download this repo
 
-
+git clone https://github.com/ayushX15/plotera-lead-automation.git
 
 2️⃣ Install dependencies
 
