@@ -1,0 +1,5 @@
+Flask
+mysql-connector-python
+twilio
+python-dotenv
+schedule
