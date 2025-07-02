@@ -5,13 +5,21 @@ A complete backend system to manage leads, automate site visit reminders via SMS
 ## 📚 Table of Contents:
 
 Features
+
 Folder Structure
+
 Tech Stack
+
 Installation & Setup
+
 API Endpoints
+
 SMS Reminder System
+
 Logging
+
 Future Enhancements
+
 Author
 
 
@@ -93,12 +101,17 @@ Create the DB + tables by running init_db.sql: mysql -u root -p < db/init_db.sql
 4️⃣ Configure your environment
 
 DB_HOST=localhost
+
 DB_USER=root
+
 DB_PASSWORD=yourpassword
+
 DB_NAME=plotera_db
 
 TWILIO_SID=your_twilio_sid
+
 TWILIO_AUTH_TOKEN=your_twilio_token
+
 TWILIO_PHONE=+11234567890
 
 5️⃣ Run the app
@@ -136,7 +149,9 @@ Sends a demo SMS to verify Twilio setup.
 python cron/send_reminders.py
 
 Fetches today's visits from DB.
+
 Sends SMS to both client & salesperson.
+
 Writes logs to logs/app.log.
 
 ## 📝 Logging:
@@ -150,9 +165,13 @@ logs/app.log
 ## 🚀 Future Enhancements:
 
 Email notifications
+
 JWT Auth for API security
+
 Admin dashboard
+
 Docker + CI/CD pipeline
+
 Unit & integration tests
 
 
